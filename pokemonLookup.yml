@@ -1,0 +1,24 @@
+---
+- name: Query Pokemon Endpoint
+  hosts: localhost
+  connection: local
+  gather_facts: no
+  
+  tasks:
+    - name: Call Pokemon OpenAPI Database
+      ansible.builtin.uri:
+        url: https://pokeapi.co/api/v2/pokemon/ditto
+        method: GET
+        return_content: true
+        status_code: 200
+        headers:
+          Accept: application/json
+      register: ditto
+
+    - name: Show raw JSON (for troubleshooting)
+      ansible.builtin.debug:
+        var: ditto.json
+
+    - name: Display Ditto's first ability
+      ansible.builtin.debug:
+        msg: ": {{ ditto.json.abilities[0].ability.name }}"
