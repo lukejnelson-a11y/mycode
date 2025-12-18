@@ -1,0 +1,1 @@
+{"event": "verbose", "uuid": "5fa7b92f-6e93-4f48-b78f-59c1e96e4126", "counter": 13, "stdout": "\u001b[0;31m- name: just a simple playbook\u001b[0m", "start_line": 12, "end_line": 13, "runner_ident": "f1f47113-3309-499c-b9df-ef1c9b2e1a0d", "created": "2025-12-18T15:48:19.834659+00:00"}

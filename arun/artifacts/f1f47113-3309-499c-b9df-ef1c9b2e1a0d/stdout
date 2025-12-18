@@ -1,0 +1,15 @@
+[0;31mERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:[0m
+[0;31mJSON: Expecting value: line 1 column 1 (char 0)[0m
+[0;31m[0m
+[0;31mSyntax Error while loading YAML.[0m
+[0;31m  mapping values are not allowed in this context. mapping values are not allowed in this context[0m
+[0;31m  in "<unicode string>", line 2, column 10[0m
+[0;31m[0m
+[0;31mThe error appears to be in '/home/student/mycode/arun/playbook-apt.yml': line 2, column 10, but may[0m
+[0;31mbe elsewhere in the file depending on the exact syntax problem.[0m
+[0;31m[0m
+[0;31mThe offending line appears to be:[0m
+[0;31m[0m
+[0;31m- name: just a simple playbook[0m
+[0;31m    hosts: localhost[0m
+[0;31m         ^ here[0m

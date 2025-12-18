@@ -1,0 +1,1 @@
+{"event": "verbose", "uuid": "39452b3b-1c29-4fb5-a5f6-43043da94157", "counter": 2, "stdout": "\u001b[0;31mJSON: Expecting value: line 1 column 1 (char 0)\u001b[0m", "start_line": 1, "end_line": 2, "runner_ident": "438e45be-f408-45c3-a762-61afd9bc969c", "created": "2025-12-18T15:49:49.575862+00:00"}
