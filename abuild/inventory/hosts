@@ -1,0 +1,2 @@
+[idrac]
+idrac-host1 idrac_ip=aux1-bbb2d316-b384-4e84-aa51-4bd2849677a6.live.alta3.com idrac_user=root idrac_password=null
